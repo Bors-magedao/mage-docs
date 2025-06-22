@@ -2,7 +2,7 @@
 
 ## Official Social Media Channels for Mage Labs
 
-* [**Twitter**](https://x.com/magelabsxyz): Follow for updates and announcements
+* [**Twitter**](https://x.com/MageLabsOnSol): Follow for updates and announcements
 * [**Telegram**](https://t.me/magelabs): Official Mage Labs community channel
 * [**Discord**](https://discord.gg/magelabs): Official Mage Labs Discord server
 
@@ -31,7 +31,7 @@ Thanks 🙏
 ## Community Involvement
 
 * **[Mage Labs Community Hub](https://t.me/magelabs)**: Connect with other community members
-* **[Mage Labs Updates](https://x.com/magelabsxyz)**: Stay updated with the latest developments
+* **[Mage Labs Updates](https://x.com/MageLabsOnSol)**: Stay updated with the latest developments
 
 ![Mage Labs Community](/assets/mages-group.jpg)
 

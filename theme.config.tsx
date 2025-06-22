@@ -30,7 +30,7 @@ const config: DocsThemeConfig = {
           <FaTelegramPlane size={24} />
         </a>
         <a 
-          href="https://x.com/magelabsxyz" 
+          href="https://x.com/MageLabsOnSol" 
           target="_blank" 
           rel="noopener noreferrer"
           style={{ 

@@ -9,30 +9,57 @@ Welcome to the official documentation for Mage Labs, a pioneering platform on th
 <style>
   .flex-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     max-width: 100%;
     background: transparent;
     border: none;
+    gap: 20px;
+    align-items: flex-start;
   }
   .flex-cell {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 33.33%;
     padding: 20px;
     box-sizing: border-box;
   }
+  .flex-cell:first-child {
+    width: 70%;
+  }
+  .flex-cell:last-child {
+    width: 30%;
+  }
   .flex-cell img {
-    max-width: 200px;
     width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
     margin-bottom: 10px;
+    border-radius: 8px;
+    background: transparent;
   }
   .flex-cell .text {
     text-align: center;
     color: #3B82F6;
     padding: 10px;
     margin-top: auto;
+    font-weight: 500;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .flex-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+    .flex-cell:first-child,
+    .flex-cell:last-child {
+      width: 100%;
+    }
+    .flex-cell img {
+      height: 150px;
+    }
   }
 </style>
 <div class="flex-container">
@@ -75,7 +102,7 @@ Whether you're providing liquidity or trading with minimal fees, Mage Labs empow
 
 Join & follow the Mage Labs community!
 
-* [Twitter](https://x.com/magelabsxyz)
+* [Twitter](https://x.com/MageLabsOnSol)
 * [Telegram](https://t.me/magelabs)
 
 Official Website:

@@ -1,6 +1,6 @@
 // pages/_app.jsx
 import React from 'react'
-import { Html, Head, Main, NextScript } from 'next/document'
+import Head from 'next/head'
 
 export default function App({ Component, pageProps }) {
   return (
