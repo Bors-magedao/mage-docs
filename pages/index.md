@@ -102,7 +102,7 @@ Whether you're providing liquidity or trading with minimal fees, Mage Labs empow
 
 Join & follow the Mage Labs community!
 
-* [Twitter](https://x.com/MageLabsOnSol)
+* [X (formerly Twitter)](https://x.com/MageLabsOnSol)
 * [Telegram](https://t.me/magelabs)
 
 Official Website:

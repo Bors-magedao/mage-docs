@@ -1,14 +1,13 @@
 // theme.config.tsx
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
-import { FaTelegramPlane, FaTwitter } from 'react-icons/fa';
 
 const config: DocsThemeConfig = {
   logo: <span>Mage Labs Docs</span>,
   /*project: {
     link: 'https://github.com/magelabs/mage-docs',
   },*/
-  docsRepositoryBase: 'https://github.com/magelabs/mage-docs',
+  docsRepositoryBase: 'https://github.com/johnforfar/mage-docs',
   darkMode: true,
   sidebar: {
     //defaultMenuCollapseLevel: 1,
@@ -24,10 +23,12 @@ const config: DocsThemeConfig = {
           style={{ 
             display: 'inline-block',
             marginRight: '16px',
-            verticalAlign: 'middle'
+            verticalAlign: 'middle',
+            fontSize: '20px'
           }}
+          title="Telegram"
         >
-          <FaTelegramPlane size={24} />
+          ✈️
         </a>
         <a 
           href="https://x.com/MageLabsOnSol" 
@@ -35,10 +36,12 @@ const config: DocsThemeConfig = {
           rel="noopener noreferrer"
           style={{ 
             display: 'inline-block',
-            verticalAlign: 'middle'
+            verticalAlign: 'middle',
+            fontSize: '20px'
           }}
+          title="X (formerly Twitter)"
         >
-          <FaTwitter size={24} />
+          𝕏
         </a>
       </>
     )
