@@ -1,0 +1,33 @@
+{
+  "name": "mage-labs-docs",
+  "version": "0.0.1",
+  "description": "Mage Labs Documentation - Advanced DEX with optimized Lamport dynamics on Solana",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magelabs/mage-docs.git"
+  },
+  "author": "Mage Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magelabs/mage-docs/issues"
+  },
+  "homepage": "https://github.com/magelabs/mage-docs#readme",
+  "private": true,
+  "dependencies": {
+    "next": "^13.5.8",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "@types/react-icons": "^3.0.0",
+    "typescript": "^4.9.5"
+  }
+}
