@@ -42,7 +42,6 @@ Thanks 🙏
 
 ## Developer Resources
 
-* [**GitHub**](https://github.com/magelabs): Open source repositories
 * [**Documentation**](https://docs.magelabs.xyz): Technical documentation
 * [**API Reference**](developer-docs/api-reference.md): Developer API documentation
 

@@ -1,6 +1,6 @@
-# CFMM Implementation in Snapper
+# CFMM Implementation in Mage DEX
 
-Snapper's Constant Function Market Maker (CFMM) model combines dynamic reserve management with a dual-reserve bonding curve system to deliver both price precision and liquidity consistency.
+Mage DEX's Constant Function Market Maker (CFMM) model combines dynamic reserve management with a dual-reserve bonding curve system to deliver both price precision and liquidity consistency.
 
 ## Core Implementation
 - **Platform Integration:**  
@@ -35,4 +35,4 @@ Snapper's Constant Function Market Maker (CFMM) model combines dynamic reserve m
 - **Sell Operation:**  
   - A similar process applies, dynamically adjusting reserves based on the token amount sold while maintaining the invariant.
 
-**Note:** These formulas represent the robust mechanism underpinning Snapper's swap operations, ensuring market-responsive pricing with precision and reliability.
+**Note:** These formulas represent the robust mechanism underpinning Mage DEX's swap operations, ensuring market-responsive pricing with precision and reliability.

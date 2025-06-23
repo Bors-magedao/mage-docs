@@ -1,6 +1,6 @@
-# Smart Contract Architecture of Snapper
+# Smart Contract Architecture of Mage DEX
 
-Snapper's architecture is built to optimize liquidity management, trade execution, and user engagement through innovative on-chain features. The design focuses on efficient operations and dynamic reserve balancing.
+Mage DEX's architecture is built to optimize liquidity management, trade execution, and user engagement through innovative on-chain features. The design focuses on efficient operations and dynamic reserve balancing.
 
 ## Key Features
 
@@ -30,4 +30,4 @@ Snapper's architecture is built to optimize liquidity management, trade executio
 - **Anchor Framework Integration:**  
   - Leverages Solana's Anchor framework for robust, secure, and efficient smart contract operations.
 
-**Note:** This overview encapsulates Snapper's current implementation, subject to updates & improvements over time.
+**Note:** This overview encapsulates Mage DEX's current implementation, subject to updates & improvements over time.

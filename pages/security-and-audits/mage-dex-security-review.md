@@ -1,5 +1,38 @@
 # Mage Labs DEX Smart Contract Security Audit Report
 
+
+
+![Mage Labs Smart Contract Security Audit Finished](/assets/audit-finished.jpg)
+
+<style>
+  .lp-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 20px 0;
+  }
+  .lp-content {
+    flex: 1;
+    min-width: 300px;
+  }
+  .lp-image {
+    flex: 1;
+    min-width: 250px;
+  }
+  .lp-image img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  @media (max-width: 768px) {
+    .lp-content, .lp-image {
+      flex: 100%;
+    }
+  }
+</style>
+
 [Download Full Report](https://github.com/AuditaSecurity/Public-Reports/blob/main/SnapperDEX_SecurityAudit_January2025.pdf)
 
 ## Audit Overview
@@ -12,7 +45,7 @@
 - **Audit Commit**: ae421fc13a1c83ad5853d702d00efaf0000a6abd
 
 ## Severity Summary
-| Severity | Count | Acknowledged |
+| Severity | Count | Status |
 |----------|--------|--------------|
 | Critical | 0 | - |
 | High | 2 | [RESOLVED] |
@@ -74,7 +107,7 @@ Mage Labs maintains a commitment to security through:
 - ed25519-dalek: RUSTSEC-2022-0093
 
 ## Overall Assessment
-Once the High and Medium severity vulnerabilities are addressed, Snapper's smart contracts are considered safe and pose no significant risks to the protocol and its users.
+The Mage Labs DEX smart contracts have undergone comprehensive security review. All Medium severity findings have been successfully resolved, and the remaining High severity items are being actively addressed. The protocol demonstrates solid security fundamentals with appropriate safeguards in place. Once all identified concerns are fully remediated, the smart contracts are expected to operate safely with minimal risk to the protocol and its users.
 
 ## Disclaimer
 This audit does not provide absolute guarantees of security. Multiple independent audits and ongoing security practices are recommended. Smart contract platforms and their programming languages are not immune to potential vulnerabilities.

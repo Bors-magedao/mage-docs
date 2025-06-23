@@ -1,6 +1,38 @@
-# Fee Structure in Snapper
+# Fee Structure in Mage DEX
 
-Snapper employs a transparent, configurable fee model designed to deliver predictable trading costs regardless of trade volume.
+
+![Mage Labs Reward Claim Model](/assets/mage-reward-claim-model.jpg)
+
+<style>
+  .lp-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 20px 0;
+  }
+  .lp-content {
+    flex: 1;
+    min-width: 300px;
+  }
+  .lp-image {
+    flex: 1;
+    min-width: 250px;
+  }
+  .lp-image img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  @media (max-width: 768px) {
+    .lp-content, .lp-image {
+      flex: 100%;
+    }
+  }
+</style>
+
+Mage DEX employs a transparent, configurable fee model designed to deliver predictable trading costs regardless of trade volume.
 
 ## Core Fee System
 - **Flat-Rate Fee Model:**  
@@ -19,4 +51,4 @@ Snapper employs a transparent, configurable fee model designed to deliver predic
 - **Creator Fees:**  
   - Directed toward ongoing project enhancements and ecosystem support.
 
-**Note:** This fee structure highlights Snapper's commitment to efficiency and fairness, achieving robust, market-responsive fee adjustments without unnecessary complexity.
+**Note:** This fee structure highlights Mage DEX's commitment to efficiency and fairness, achieving robust, market-responsive fee adjustments without unnecessary complexity.

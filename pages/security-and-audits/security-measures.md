@@ -5,12 +5,12 @@
 ### Audita Security Audit
 - **Period**: January 20th - January 28th, 2025
 - **Auditor**: Audita Security (audita.io)
-- **Scope**: SnapperDEX smart contract security review
+- **Scope**: Mage DEX smart contract security review
 - **Key Findings**:
   - 2 High severity issues
   - 2 Medium severity issues
 - **Status**: Implementation Completed
-- [More Details](snapper-security-review.md)
+- [More Details](mage-dex-security-review.md)
 
 ## Audit Methodology
 - Period: January 20th - January 28th, 2025
