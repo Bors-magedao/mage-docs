@@ -35,11 +35,6 @@ Thanks 🙏
 
 ![Mage Labs Community](/assets/mages-group.jpg)
 
-## Token & NFT Communities
-
-* [**$MAGE Token**](https://t.me/magetoken): Official $MAGE Token community
-* [**Mage NFTs**](https://t.me/magenft): Official Mage NFTs community
-
 ## Developer Resources
 
 * [**Documentation**](https://docs.magelabs.xyz): Technical documentation

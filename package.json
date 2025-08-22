@@ -19,11 +19,11 @@
   "homepage": "https://github.com/magelabs/mage-docs#readme",
   "private": true,
   "dependencies": {
-    "next": "^13.5.8",
-    "nextra": "latest",
-    "nextra-theme-docs": "latest",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "next": "^14.0.0",
+    "nextra": "^3.0.0",
+    "nextra-theme-docs": "^3.0.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
