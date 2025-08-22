@@ -1,6 +1,7 @@
 // theme.config.tsx
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import { FaTelegram, FaXTwitter } from 'react-icons/fa6'
 
 const config: DocsThemeConfig = {
   logo: <span>Mage Labs Docs</span>,
@@ -24,11 +25,13 @@ const config: DocsThemeConfig = {
             display: 'inline-block',
             marginRight: '16px',
             verticalAlign: 'middle',
-            fontSize: '20px'
+            fontSize: '20px',
+            color: 'inherit',
+            textDecoration: 'none'
           }}
           title="Telegram"
         >
-          ✈️
+          <FaTelegram />
         </a>
         <a 
           href="https://x.com/MageLabsOnSol" 
@@ -37,11 +40,13 @@ const config: DocsThemeConfig = {
           style={{ 
             display: 'inline-block',
             verticalAlign: 'middle',
-            fontSize: '20px'
+            fontSize: '20px',
+            color: 'inherit',
+            textDecoration: 'none'
           }}
           title="X (formerly Twitter)"
         >
-          𝕏
+          <FaXTwitter />
         </a>
       </>
     )
