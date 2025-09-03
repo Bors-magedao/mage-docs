@@ -93,6 +93,7 @@ Whether you're providing liquidity or trading with minimal fees, Mage Labs empow
 ### Quick Links
 
 * [Getting Started](getting-started/introduction-to-mage-labs.md)
+* [Official Assets](getting-started/official-assets.md)
 * [DEX Overview](dex/understanding-the-dex.md)
 * [Revenue Share Model](getting-started/revenue-share.md)
 * [Security and Audits](security-and-audits/security-measures.md)
