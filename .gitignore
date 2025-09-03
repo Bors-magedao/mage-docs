@@ -19,3 +19,6 @@ _book
 package-lock.json
 
 KNOWLEDGE
+
+# macOS
+.DS_Store
