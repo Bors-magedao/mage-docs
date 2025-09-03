@@ -42,3 +42,4 @@ The Mage Labs NFT collection provides additional staking benefits and community 
 - Report suspicious activity to the community
 
 For more information about staking and earning rewards, see our [Revenue Share Model](/getting-started/revenue-share) page.
+
