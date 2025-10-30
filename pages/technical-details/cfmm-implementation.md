@@ -1,11 +1,11 @@
 ---
-title: CFMM Implementation in Mage DEX
-description: Technical breakdown of Mage DEX's Constant Function Market Maker (CFMM) model, reserve dynamics, and fee logic.
+title: CFMM Implementation in Mage Labs
+description: Technical breakdown of Mage Labs Constant Function Market Maker (CFMM) model, reserve dynamics, and fee logic.
 ---
 
-# CFMM Implementation in Mage DEX
+# CFMM Implementation in Mage Labs
 
-Mage DEX's **Constant Function Market Maker (CFMM)** integrates dynamic reserve management with a **dual-reserve system** to achieve both price precision and liquidity stability.
+Mage Labs **Constant Function Market Maker (CFMM)** integrates dynamic reserve management with a **dual-reserve system** to achieve both price precision and liquidity stability.
 
 ---
 
@@ -15,7 +15,7 @@ Mage DEX's **Constant Function Market Maker (CFMM)** integrates dynamic reserve 
 Built for the **Solana Virtual Machine (SVM)** using the **Anchor framework**, ensuring efficient, secure, and composable on-chain execution.
 
 ### Dual-Reserve System
-Mage DEX uses two layers of reserves:
+Mage Labs uses two layers of reserves:
 
 - **Virtual Reserves:** Enhance price precision and minimize slippage by simulating deeper liquidity.  
 - **Real Reserves:** Represent actual on-chain token balances and enforce solvency limits.
@@ -135,7 +135,7 @@ Early and long-term capital endpoints earn an increased percentage of liquidity 
 
 ## Summary
 
-Mage DEX's CFMM model maintains a **dual-reserve invariant**, enabling:
+Mage Labs CFMM model maintains a **dual-reserve invariant**, enabling:
 
 * **Tight spreads** and minimal slippage  
 * **Consistent pricing** across all trade sizes  
@@ -143,13 +143,13 @@ Mage DEX's CFMM model maintains a **dual-reserve invariant**, enabling:
 * **Market-responsive** pricing through virtual bonding curves  
 * **On-chain solvency** via real reserve constraints
 
-Through precise virtual and real reserve synchronization, Mage DEX achieves a **robust, fair, and scalable** decentralized exchange system on Solana.
+Through precise virtual and real reserve synchronization, Mage Labs achieves a **robust, fair, and scalable** liquidity infrastructure layer on Solana.
 
 ---
 
 ## Additional Resources
 
-For more information on Mage Labs' fee structure and liquidity incentives, see:
+For more information on Mage Labs fee structure and liquidity incentives, see:
 - [Fee Structure](/technical-details/fee-structure)
 - [Smart Contract Architecture](/technical-details/smart-contract-architecture)
 - [Security & Audits](/security-and-audits/audit-summary)

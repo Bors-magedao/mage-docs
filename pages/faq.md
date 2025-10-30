@@ -50,7 +50,7 @@ The codebase is not publicly open-sourced due to security and competitive consid
 
 Yes, the Mage Labs core Execution Protocol and fee relay staking programs have undergone independent security audits by firms such as Audita Security and Chainfox. The fee relay staking module was also audited by Cyberscope Security.
 
-## About Mage Labs' Liquidity Layer Fees
+## About Mage Labs Liquidity Layer Fees
 
 Mage Labs fee structure is designed to be highly competitive. It uses an Adaptive Fee Framework with multiple fee tiers, which allows for extremely low execution costs (up to 1000x - 70x cheaper than some other infrastructure layers). The fees collected from trades are distributed across capital providers, token stakers, NFT stakers, and the protocol treasury.
 
@@ -117,7 +117,7 @@ Yes, Mage Labs allows for permissionless liquidity node creation. The protocol's
 
 ## Node Types on Mage Liquidity Layer: Constant Function Market Maker (CFMM)
 
-Mage Labs' core protocol is built on a Constant Function Market Maker (CFMM) model, specifically a flat-fee Constant Product Market Maker (CPMM) with time-weighted curve rewards. This design provides a simplified and efficient method for liquidity provision, moving away from more complex models that require active management of price ranges.
+Mage Labs core protocol is built on a Constant Function Market Maker (CFMM) model, specifically a flat-fee Constant Product Market Maker (CPMM) with time-weighted curve rewards. This design provides a simplified and efficient method for liquidity provision, moving away from more complex models that require active management of price ranges.
 
 ### Mage Labs Node Structure
 

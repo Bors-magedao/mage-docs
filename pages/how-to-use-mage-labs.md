@@ -98,7 +98,7 @@ To create a new liquidity node, you need:
 4. **Set Initial Liquidity**: Provide an initial deposit of both tokens. The platform's UI will guide you to provide an equal value of each token to establish the liquidity node.
 5. **Confirm Pool Creation**: Review all the details, including the selected fee tier and the initial liquidity amount. Confirm the transaction in your wallet. The liquidity node will be created on the Solana Mainnet.
 
-Once the liquidity node is live, it will be tradable through Mage Labs' routing program and accessible across the Solana ecosystem once key strategic aggregator integrations have been finalized.
+Once the liquidity node is live, it will be tradable through Mage Labs routing program and accessible across the Solana ecosystem once key strategic aggregator integrations have been finalized.
 
 ---
 
@@ -168,7 +168,7 @@ Your wallet is the gateway to your funds. Always follow these security measures:
 
 **Price Impact**: A large trade can significantly impact a liquidity node's price, which can result in a less favorable rate. Mage Labs is designed to provide cost-optimized execution for trades, but it is important to be aware of the price impact displayed before you confirm a swap.
 
-**Impermanent Loss**: For capital providers, this is the temporary loss of funds due to the volatility of a trading pair. It happens when the price of the tokens you deposit changes compared to when you deposited them. While Mage Labs' capital endpoint loyalty boost is designed to offset this, it is still a risk to be aware of.
+**Impermanent Loss**: For capital providers, this is the temporary loss of funds due to the volatility of a trading pair. It happens when the price of the tokens you deposit changes compared to when you deposited them. While Mage Labs capital endpoint loyalty boost is designed to offset this, it is still a risk to be aware of.
 
 ### 3. Maximize Your Participation
 

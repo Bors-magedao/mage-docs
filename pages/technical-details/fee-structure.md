@@ -1,37 +1,6 @@
-# Fee Structure in Mage DEX
+# Fee Structure in Mage Labs
 
-![Mage Labs Reward Claim Model](/assets/mage-reward-claim-model.jpg)
-
-<style>
-  .lp-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: flex-start;
-    margin: 20px 0;
-  }
-  .lp-content {
-    flex: 1;
-    min-width: 300px;
-  }
-  .lp-image {
-    flex: 1;
-    min-width: 250px;
-  }
-  .lp-image img {
-    width: 80%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-  @media (max-width: 768px) {
-    .lp-content, .lp-image {
-      flex: 100%;
-    }
-  }
-</style>
-
-Mage DEX employs a transparent, configurable fee model that combines flat-rate simplicity with mathematical precision, delivering predictable trading costs and equitable reward distribution across all participants.
+Mage Labs employs a transparent, configurable fee model that combines flat-rate simplicity with mathematical precision, delivering predictable trading costs and equitable reward distribution across all participants.
 
 ---
 
@@ -39,7 +8,7 @@ Mage DEX employs a transparent, configurable fee model that combines flat-rate s
 
 ### Flat-Rate Fee Model
 
-Mage DEX utilizes a flat-rate fee structure to maintain consistency and predictability across all trade volumes:
+Mage Labs utilizes a flat-rate fee structure to maintain consistency and predictability across all trade volumes:
 
 * **Uniform Application**: Ensures consistent fee application regardless of trade size
 * **Reduced Volatility**: Minimizes percentage-based cost fluctuations, making high-volume trades more efficient
@@ -181,7 +150,7 @@ The following parameters can be adjusted through governance:
 
 ### Cost Efficiency
 
-Mage Labs' Adaptive Fee Framework with flat-fee curves reduces execution costs by:
+Mage Labs Adaptive Fee Framework with flat-fee curves reduces execution costs by:
 
 * **20x to 1000x** cheaper than some competing infrastructure layers
 * **95% to 99%** lower execution costs per swap compared to other Solana DEX protocols
@@ -234,7 +203,7 @@ $$
 
 ## Summary
 
-Mage DEX's fee architecture combines:
+Mage Labs fee architecture combines:
 
 * **Flat-Rate Simplicity**: Predictable costs across all trade sizes  
 * **Mathematical Precision**: Pro-rata distribution ensures fairness  
@@ -248,7 +217,7 @@ This fee structure creates a self-sustaining liquidity fabric where protocol gro
 
 ## Additional Resources
 
-For more information on Mage Labs' technical implementation and liquidity mechanisms, see:
+For more information on Mage Labs technical implementation and liquidity mechanisms, see:
 
 * [CFMM Implementation](/technical-details/cfmm-implementation)
 * [Smart Contract Architecture](/technical-details/smart-contract-architecture)
