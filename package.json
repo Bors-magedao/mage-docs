@@ -19,14 +19,18 @@
   "homepage": "https://github.com/magelabs/mage-docs#readme",
   "private": true,
   "dependencies": {
+    "katex": "^0.16.25",
     "next": "^14.0.0",
     "nextra": "^3.0.0",
     "nextra-theme-docs": "^3.0.0",
     "react": "^18.3.0",
-    "react-dom": "^18.3.0"
+    "react-dom": "^18.3.0",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
+    "@types/react": "19.2.2",
     "@types/react-icons": "^3.0.0",
     "typescript": "^5.9.2"
   }

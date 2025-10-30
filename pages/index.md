@@ -2,109 +2,56 @@
 icon: hand-wave
 ---
 
-# Introduction
+# Welcome to Mage Labs
 
-Welcome to the official documentation for Mage Labs, a pioneering platform on the Solana blockchain that features advanced DEX technology with optimized Lamport dynamics. Here, you'll find all the information you need to interact with the Mage Labs ecosystem.
+Mage Labs is a protocol building the liquidity infrastructure layer for Solana's DeFi ecosystem. It is designed to act as a throughput engine for aggregators, bots, and retail order flow participants, transforming passive liquidity into tokenized infrastructure to enable efficient capital circulation across Solana. The protocol's architecture is not intended to compete for trades, but rather to power how they happen.
 
-<style>
-  .flex-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 100%;
-    background: transparent;
-    border: none;
-    gap: 20px;
-    align-items: flex-start;
-  }
-  .flex-cell {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  .flex-cell:first-child {
-    width: 70%;
-  }
-  .flex-cell:last-child {
-    width: 30%;
-  }
-  .flex-cell img {
-    width: 100%;
-    height: 200px;
-    object-fit: contain;
-    object-position: center;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    background: transparent;
-  }
-  .flex-cell .text {
-    text-align: center;
-    color: #3B82F6;
-    padding: 10px;
-    margin-top: auto;
-    font-weight: 500;
-  }
-  
-  /* Responsive design */
-  @media (max-width: 768px) {
-    .flex-container {
-      flex-direction: column;
-      gap: 15px;
-    }
-    .flex-cell:first-child,
-    .flex-cell:last-child {
-      width: 100%;
-    }
-    .flex-cell img {
-      height: 150px;
-    }
-  }
-</style>
-<div class="flex-container">
-  <div class="flex-cell">
-    <a href="/dex/understanding-the-dex">
-      <img src="/assets/mage-labs-banner.png" alt="Mage Labs DEX">
-      <div class="text">Mage Labs DEX</div>
-    </a>
-  </div>
-  <div class="flex-cell">
-    <a href="/getting-started/revenue-share">
-      <img src="/assets/mage-revenue-share.jpg" alt="Revenue Share Model">
-      <div class="text">Revenue Share Model</div>
-    </a>
-  </div>
-</div>
+## Mage Execution Protocol: A Self-Sustaining Liquidity Fabric
 
-## Overview
+Mage Labs addresses inefficiencies in the Solana liquidity infrastructure, such as fragmented liquidity, high fees, and low capital efficiency. The Mage Automated Market Maker (Execution Protocol) re-architects liquidity itself, focusing on several key features:
 
-Mage Labs is a cutting-edge platform that introduces optimized Lamport dynamics to Solana DEX trading. Designed for the rapidly evolving Solana ecosystem, it rewards early adopters and long-term stakers by **redistributing 95% of trading revenue back to the community**.
+* **Liquidity as Infrastructure**: Capital liquidity nodes function as throughput nodes within a unified network, rather than isolated farms.
+* **Adaptive Fee Framework**: Flat-fee curves are designed to enable efficient routing across all trade sizes and conditions, reducing execution costs by a factor of 20x to 1000x.
+* **Autonomous Liquidity Engine (ALE)**: A protocol-owned execution layer that automates market operations to generate non-dilutive, protocol-level yield.
+* **Horizontal Fee Distribution**: A programmable mechanism that distributes protocol yield across token stakers, NFT stakers, and the treasury, aligning network participants with protocol growth.
+* **Composability First**: Designed to integrate with aggregators, arbitrage and trading bots, and wallets to extend Solana's liquidity fabric rather than fragmenting it.
 
-Whether you're providing liquidity or trading with minimal fees, Mage Labs empowers you to participate in a system where the success of the platform benefits every user through our innovative reward claim model.
+This architecture forms an "everyone eats" model, a self-sustaining liquidity fabric where all participants share in the network's expansion.
 
-### Key Features
+## Key Features & Protocol Design
 
-* **Optimized Lamport Dynamics**: Flat fees that make large trades more cost-effective
-* **95% Revenue Distribution**: Community-focused reward system
-* **Mage Token & NFT Ecosystem**: Stake $MAGE tokens and Mage NFTs to earn rewards
-* **Advanced DEX Technology**: Built for efficiency and user benefits
+### Fee Structure
+
+The Mage Liquidity Layer has a variety of fee tiers (7 in total), ranging from 0.0001% to 1%.
+
+### Liquidity Incentives
+
+* **Capital Endpoint Loyalty Boost**: Early and long-term capital providers (capital endpoints) earn a higher percentage of liquidity node fees, with boost levels reaching 2-3x after approximately 90 days.
+* **Gamified Node Architecture**: Only one liquidity node can exist for a given trading pair and fee tier, rewarding early movers who claim the most competitive fee slots and helping to concentrate liquidity.
+
+### Revenue Streams
+
+* **Liquidity Provider Fees**: With loyalty boost multipliers.
+* **Fee Relay Staking**: Token and NFT stakers share in the protocol fee yield.
+* **Autonomous Liquidity Engine (ALE)**: Generates protocol-level yield.
+
+#### Fee Relay Staking
+
+The protocol has two independent fee relay staking functions:
+
+* **MAGE Token Fee Relay Staking Pool**: Receives 15% of capital endpoint fees.
+* **MAGE NFT Fee Relay Staking Pool**: Receives 5% of capital endpoint fees.
+
+Distributions are on-chain, pro-rata, and non-custodial, allowing stakers to claim accrued amounts daily.
+
+---
 
 ### Quick Links
 
-* [Getting Started](getting-started/introduction-to-mage-labs.md)
-* [Official Assets](getting-started/official-assets.md)
-* [DEX Overview](dex/understanding-the-dex.md)
-* [Revenue Share Model](getting-started/revenue-share.md)
+* [How to Use Mage Labs](how-to-use-mage-labs.md)
 * [Security and Audits](security-and-audits/security-measures.md)
 * [Technical Details](technical-details/smart-contract-architecture.md)
-* [Developer Docs](developer-docs/api-reference.md)
-* [Contact and Support](contact-and-support.md)
-
-Join & follow the Mage Labs community!
-
+* [Developer Toolkit](developer-docs/api-reference.md)
+* [FAQ](faq.md)
 * [X (formerly Twitter)](https://x.com/MageLabsOnSol)
-* [Telegram](https://t.me/magelabs)
-
-Official Website:
 * [MageLabs.xyz](https://magelabs.xyz)

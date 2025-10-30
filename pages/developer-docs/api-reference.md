@@ -19,4 +19,4 @@ The API is currently under active development. Please follow our social media ch
 ## Developer Resources
 
 * [Technical Documentation](../technical-details/smart-contract-architecture.md)
-* [Support and Social Channels ](../contact-and-support.md)
+<!-- * [Support and Social Channels ](../contact-and-support.md) -->

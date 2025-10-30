@@ -9,11 +9,11 @@ For information about our security framework, testing methodology, and ongoing s
 ## Audit Timeline
 
 ### 2025 Audit Progression
-1. **May 2025**: Mage DEX Security Audit (Audita)
-2. **June 2025**: Initial Staking Audit (Cyberscope)
-3. **July 2025**: Staking Audit Phase 2 (Cyberscope)
-4. **July 2025**: Staking Audit Phase 3 (Cyberscope)
-5. **July 2025**: Chain-Fox DEX Preliminary Audit
+1. **May 2025**: [Mage DEX Security Audit (Audita)](https://docs.magelabs.xyz/reports/Audita_Magelabs_SecurityAudit_17_05_2025.pdf)
+2. **June 2025**: [Initial Staking Audit (Cyberscope)](https://docs.magelabs.xyz/reports/Cyberscope%20Staking%20Audit%20Report%20Mage%20Labs%20June%202025.pdf)
+3. **July 2025**: [Staking Audit Phase 2 (Cyberscope)](https://docs.magelabs.xyz/reports/Cyberscope%20Staking%20Audit%20Report%20Mage%20Labs%20July%202025.pdf)
+4. **July 2025**: [Staking Audit Phase 3 (Cyberscope)](https://docs.magelabs.xyz/reports/Cyberscope_July2025_Phase3.pdf)
+5. **July 2025**: [Chain-Fox DEX Preliminary Audit](https://docs.magelabs.xyz/reports/Chain-Fox%20DEX%20preliminary%20findings%20July-2025.pdf)
 
 ## Detailed Audit Reports
 
@@ -117,11 +117,11 @@ For information about our security framework, testing methodology, and ongoing s
 
 ## Security Status
 
-✅ **All Critical and High severity issues resolved**
-✅ **Multiple independent audit firms engaged**
-✅ **Progressive security improvements implemented**
-✅ **Production-ready security standards achieved**
-✅ **Continuous security monitoring in place**
+* **All Critical and High severity issues resolved**
+* **Multiple independent audit firms engaged**
+* **Progressive security improvements implemented**
+* **Production-ready security standards achieved**
+* **Continuous security monitoring in place**
 
 ## Ongoing Security
 

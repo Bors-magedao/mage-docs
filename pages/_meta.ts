@@ -1,10 +1,9 @@
 // pages/_meta.ts
 export default {
   "index": "Introduction",
-  "getting-started": "Getting Started",
-  "dex": "DEX",
+  "how-to-use-mage-labs": "How to Use Mage Labs",
   "security-and-audits": "Security & Audits",
   "technical-details": "Technical Details",
-  "developer-docs": "Developer Docs",
-  "contact-and-support": "Contact & Support"
+  "developer-docs": "Developer Toolkit",
+  "faq": "FAQ"
 } as const;

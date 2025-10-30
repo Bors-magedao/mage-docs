@@ -1,6 +1,7 @@
 // pages/_app.jsx
 import React from 'react'
 import Head from 'next/head'
+import 'katex/dist/katex.min.css'
 
 export default function App({ Component, pageProps }) {
   return (
